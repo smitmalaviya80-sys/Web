@@ -1,15 +1,84 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 
 <html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Attendence</title>
-        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <style>
+            table,th,td{
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+            table{
+            
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                    
+                
+            }
+
+            th,td{
+                align-items: center;
+            }
+
+            tr:nth-child(even){
+                background-color:rgb(174, 235, 245);
+            }
+
+            tr:nth-child(odd){
+                background-color:rgba(174, 236, 245, 0.176);
+            }
+        </style>
     </head>
     <body>
+        <div class="attendence" style="text-align: center;">
+            <header class="attendence-header">
+                <h1>Semester Record</h1>
+                <p>75% Attendence is Mandetory Of Averyone</p>
+            </header>
+
+            <table>
+                <tr>
+                    <th>Subject</th>
+                    <th>Attendence</th>
+                    <th>Standing</th>
+                </tr>
+
+                <tr>
+                    <td>Web Devlopment</td>
+                    <td>100%</td>
+                    <td>Exelent</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>Computer Networking</td>
+                    <td>95%</td>
+                    <td>Good</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>OOP</td>
+                    <td>90%</td>
+                    <td>Avrage</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>DSA</td>
+                    <td>75%</td>
+                    <td>Exelent</td>
+                    
+                </tr>
+
+
+            </table>
+        </div>
        
     </body>
 </html>
