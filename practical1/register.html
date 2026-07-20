@@ -29,23 +29,15 @@
             <input type="radio" name="radio" value="Male"><br><br><br>
 
             <label for="dob">DOB:</label>
-            <input type="date" name="dob" min="2025-06-01" max="2026-07-22">
+            <input type="date" name="dob" min="2025-06-01" max="2026-07-22"><br><br><br>
+
+            <label for="address">Address:</label>
+            <textarea name="address" placeholder="Enter the Full Address" required></textarea>
         </form>    
-        <form>
-                <h3>Education</h3>
-
-                <label for="radio">10<sup>th</sup>Pass</label>
-                <input type="radio" name="radio" value="10thpass">
-
-                <label for="radio">12<sup>th</sup>Pass</label>
-                <input type="radio" name="radio" value="12thpass">
-
-                <label for="radio">Graduated</label>
-                <input type="radio" name="radio" value="Graduated">
-        </form>
+       
         <br><br>
 
-        <button>Submit</button>
+        <button type="button" onclick="window.location.href='dashboard.html';">Submit</button>
         
     </body>
 </html>
