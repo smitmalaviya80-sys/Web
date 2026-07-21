@@ -31,13 +31,29 @@
             <label for="dob">DOB:</label>
             <input type="date" name="dob" min="2025-06-01" max="2026-07-22"><br><br><br>
 
+            <label for="contect">Contect:</label>
+            <input type="tel" name="contect" id="contect" maxlength="10"><br><br><br>
+
             <label for="address">Address:</label>
-            <textarea name="address" placeholder="Enter the Full Address" required></textarea>
+            <textarea name="address" placeholder="Enter the Full Address" required></textarea><br><br><br>
+
+           <label for="department">Department:</label>
+
+            <select id="department" name="department">
+                <option value="">-Select Department-</option>
+                <option value="it">Information Technology</option>
+                <option value="ce">Computer Engineering</option>
+                <option value="ec">Electronics & Communication</option>
+                <option value="me">Mechanical Engineering</option>
+                <option value="civil">Civil Engineering</option>
+            </select>
         </form>    
        
         <br><br>
 
-        <button type="button" onclick="window.location.href='dashboard.html';">Submit</button>
+        <button type="button" onclick="window.location.href='login.html';">Previous</button>
+        <button type="button" onclick="window.location.href='dashboard.html';">Next</button>
+
         
     </body>
 </html>
