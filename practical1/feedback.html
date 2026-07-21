@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" ,initial-scale="1.0">
+        <title>StudentHub - Home</title>
+        <style>
+            
+                    body{
+                        margin: 0;
+                    }
+
+                    .feedback{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        height: 100vh;
+                    }
+
+                    .contact-section{
+                        width: 400px;
+                        padding: 20px;
+                        border: 2px solid black;
+                        border-radius: 10px;
+                        text-align: center;
+                    }
+        
+        </style>
+    </head>
+    <body>        
+        
+        <div class="feedback">
+            <!--<header>
+                <ul type="squre">
+                    <li>Contact No.123456789</li>
+                    <li>Email.smitmalaviya7@gmail.com</li>
+                    <li>Address.
+
+                    </li>
+                </ul>
+            </header>-->
+            <section class="contact-section" id="contact">
+                <h2>Contact Us</h2>
+                <p>If you have any questions, feedback, or just want to say hi, feel free to reach out!</p>
+                <form class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </div>    
+    </body>
+</html>        

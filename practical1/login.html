@@ -4,25 +4,73 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width" initial-scale="1.0">
         <title>Login</title>
+        <link rel="icon" title="image" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsb-zl3kW51m0q1KFk132-HJgYihOj3x8vEpjr5n9-yQ&s">
+        <style>
+            .login-page{
+                margin-top: 12%;
+                margin-left: 29%;
+                border:2px solid black;
+                width: 40%;
+                
+                border-radius: 20px;
+                background-color: rgba(239, 239, 218, 0.444);
+                
+            }
+
+            .login-page h2{
+                margin-left: 30px;
+            }
+            #username{
+                text-align: left;
+                
+            }
+            body{
+                margin: 0;
+                height: 100vh;
+
+                background-image:
+                    linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.8)),
+                    url("https://t4.ftcdn.net/jpg/04/17/78/49/360_F_417784975_igbNzEo84A9VrPIafpJ6hoUDoCVJ656e.jpg");
+
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .login-page h4 {
+                text-align: center;
+                
+            }
+
+            .login-page button{
+                margin-inline-start: 45%;
+            }
+
+           
+        </style>
      </head>
-    <body>
+    <body >
+        <div class="login-page">
+            <h2>Login Here</h2>
 
-        <h2>Login</h2>
+            <form align="center" action="dashboard.html">
 
-        <form>
+                <fieldset>
+                    <legend>Username</legend>
+                    <input type="text" name="username" required>
+                </fieldset>
 
-            <label>Email</label><br>
-            <input type="email"><br><br>
+                <fieldset>
+                    <legend>Password</legend>
+                    <input type="password" name="password" required>
+                </fieldset>
 
-            <label>Password</label><br>
-            <input type="password"><br><br>
+                <br><br>
 
-            <button type="button" onclick="window.location.href='dashboard.html';">Login</button><br><br><br>
-
-            <h4>Can't Have Account</h4>
-            <a href="register.html">Register Here</a>
-
-        </form>
+                <button type="submit">Login</button><br><br>
+                <h4 >Can't Have Account</h4> <br><br><a href="register.html" style="margin-left: 40%;" width="50%" >Register Here</a>
+            <form>
+        </div>
 
     </body>
 </html>
